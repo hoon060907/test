@@ -9,5 +9,6 @@ int main() {
 	{
 		a = rand() % 10;
 		b = rand() % 10;
+		printf("[%d/10] %d - %d", &i, &a, &b);
 	}
 }
